@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nitin Jadon — Senior Backend Engineer</title>
+  <meta name="description" content="Nitin Jadon — Senior Backend Engineer specializing in Java, Spring Boot, AWS, Kubernetes, and event-driven architectures with Kafka." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙️</text></svg>" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <div class="nav-inner">
+      <a href="#top" class="nav-logo"><span class="mono accent">&lt;</span>NJ<span class="mono accent">/&gt;</span></a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="#" class="btn btn-outline nav-resume" target="_blank" rel="noopener">Resume</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container">
+      <p class="hero-hello mono">Hi, my name is</p>
+      <h1 class="hero-name">Nitin Jadon.</h1>
+      <h2 class="hero-tagline">I build scalable backend systems in the cloud.</h2>
+      <p class="hero-blurb">
+        Senior Backend Engineer with <strong>6.5+ years</strong> designing high-throughput
+        microservices across e-commerce, healthcare, and enterprise networking.
+        I specialize in <span class="accent">Java · Spring Boot · AWS · Kafka · Kubernetes</span>,
+        and I use AI tooling daily to ship faster.
+      </p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">Get in touch</a>
+        <a href="#experience" class="btn btn-ghost">See my work</a>
+        <a href="#" class="btn btn-ghost" target="_blank" rel="noopener" id="hero-resume-btn">📄 View Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title"><span class="mono accent">01.</span> About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a backend engineer who loves systems that stay fast and reliable under real-world load.
+            Over the last 6.5+ years I've architected event-driven platforms processing
+            <strong>millions of events daily</strong>, kept healthcare APIs at
+            <strong>99.9% uptime</strong>, and cut incident response times by
+            <strong>~35%</strong> with observability tooling I built myself.
+          </p>
+          <p>
+            My home turf is the JVM and cloud-native AWS — EKS, ECS, Lambda — with deep experience in
+            Kafka-based architectures, CI/CD modernization, and integrations with platforms like
+            Salesforce, OneTrust, and ServiceNow.
+          </p>
+          <p>
+            Lately I'm focused on weaving AI tools (Claude, GitHub Copilot, Cursor) into engineering
+            workflows to accelerate delivery — and I'm working toward the
+            <strong>AWS AI Practitioner</strong> certification.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat"><span class="stat-num">6.5+</span><span class="stat-label">Years of experience</span></div>
+          <div class="stat"><span class="stat-num">99.9%</span><span class="stat-label">Uptime SLA delivered</span></div>
+          <div class="stat"><span class="stat-num">1M+</span><span class="stat-label">Events processed daily</span></div>
+          <div class="stat"><span class="stat-num">40+</span><span class="stat-label">Critical bugs resolved</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title"><span class="mono accent">02.</span> Where I've Worked</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Senior Software Engineer <span class="at">@ TEKsystems India <span class="via">(via ESS Commerce)</span></span></h3>
+            <p class="mono period">Oct 2021 — Present · Remote, India</p>
+            <p>
+              Long-tenure senior engineer delivering across three major enterprise client platforms —
+              Abbott Healthcare, Adobe E-Commerce, and Cisco Networking (detailed below in Projects).
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Associate Consultant <span class="at">@ Capgemini India <span class="via">(State Farm client)</span></span></h3>
+            <p class="mono period">May 2019 — Oct 2021 · Pune, India</p>
+            <ul>
+              <li>Engineered a predictive Java application integrated with ServiceNow APIs to autonomously resolve recurring tickets and forecast outages — cutting manual resolution effort by <strong>~60%</strong>.</li>
+              <li>Built a scheduled Splunk log-extraction and reporting engine delivering automated error-rate insights multiple times daily.</li>
+              <li>Led end-to-end delivery of a 24/7 breach-reporting tool with continuous hourly SLA monitoring across critical systems.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title"><span class="mono accent">03.</span> Featured Projects</h2>
+      <div class="projects-grid">
+
+        <article class="card">
+          <div class="card-top">
+            <span class="card-icon">🏥</span>
+            <span class="mono card-period">Oct 2025 — Present</span>
+          </div>
+          <h3>ESL — Abbott Healthcare Platform</h3>
+          <p>
+            Architected highly available API and Kafka queue-listener services on AWS EKS with
+            <strong>sub-100ms</strong> async latency. Led integration of enterprise modules with
+            Salesforce and OneTrust, achieving a <strong>99.9% uptime SLA</strong>.
+          </p>
+          <ul class="tags mono">
+            <li>Java</li><li>Spring Boot</li><li>Kafka</li><li>AWS EKS</li><li>SFDC</li><li>OneTrust</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="card-icon">🛒</span>
+            <span class="mono card-period">Aug 2024 — Oct 2025</span>
+          </div>
+          <h3>VIPMP — Adobe E-Commerce Platform</h3>
+          <p>
+            Led modernization of core e-commerce microservices — <strong>15+ feature enhancements</strong>,
+            <strong>40+ critical bugs</strong> resolved. Built New Relic dashboards for proactive anomaly
+            detection, reducing incident response time by <strong>~35%</strong> with zero critical security findings.
+          </p>
+          <ul class="tags mono">
+            <li>Java</li><li>Microservices</li><li>New Relic</li><li>AWS</li><li>CI/CD</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="card-icon">🌐</span>
+            <span class="mono card-period">Oct 2021 — Aug 2024</span>
+          </div>
+          <h3>CX Cloud Agent — Cisco Networking</h3>
+          <p>
+            Engineered scalable microservices from the ground up in a polyglot stack (Java, Python, Golang)
+            across AWS ECS, EKS, and Lambda. Delivered event-driven pipelines processing
+            <strong>millions of telemetry events daily</strong> with fault-tolerant Kafka consumers and DLQ strategies.
+          </p>
+          <ul class="tags mono">
+            <li>Java</li><li>Python</li><li>Golang</li><li>Kafka</li><li>AWS Lambda</li><li>ECS/EKS</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="card-icon">🤖</span>
+            <span class="mono card-period">Ongoing</span>
+          </div>
+          <h3>AI-Augmented Engineering Workflow</h3>
+          <p>
+            Integrating AI tooling — Claude, GitHub Copilot, Cursor — into daily backend development
+            workflows to accelerate delivery velocity, from code generation and review to
+            incident triage. Pursuing AWS AI Practitioner certification (target Q3 2026).
+          </p>
+          <ul class="tags mono">
+            <li>Claude</li><li>GitHub Copilot</li><li>Cursor</li><li>AWS AI</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title"><span class="mono accent">04.</span> Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul class="tags mono"><li>Java (primary)</li><li>Python</li><li>Golang</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Frameworks</h3>
+          <ul class="tags mono"><li>Spring Boot</li><li>Spring Cloud</li><li>REST APIs</li><li>Event-Driven Architecture</li><li>Microservices</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Cloud &amp; Infra</h3>
+          <ul class="tags mono"><li>AWS EKS</li><li>ECS</li><li>Lambda</li><li>S3</li><li>RDS</li><li>SQS</li><li>EventBridge</li><li>CloudWatch</li><li>API Gateway</li><li>Kubernetes</li><li>Docker</li><li>Terraform</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Messaging &amp; Databases</h3>
+          <ul class="tags mono"><li>Apache Kafka</li><li>PostgreSQL</li><li>MySQL</li><li>Redis</li><li>DynamoDB</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>CI/CD &amp; DevOps</h3>
+          <ul class="tags mono"><li>Jenkins</li><li>CircleCI</li><li>Drone</li><li>GitHub Actions</li><li>Bitbucket Pipelines</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Observability &amp; AI Tools</h3>
+          <ul class="tags mono"><li>New Relic</li><li>Splunk</li><li>Datadog</li><li>Claude</li><li>GitHub Copilot</li><li>Cursor</li></ul>
+        </div>
+      </div>
+
+      <div class="edu">
+        <h3 class="edu-title">Education &amp; Certifications</h3>
+        <ul>
+          <li><strong>B.Tech, Computer Science &amp; Engineering</strong> — GLA University, Mathura <span class="mono period">· 2015 – 2019</span></li>
+          <li><strong>Microsoft Technology Associate (MTA)</strong> — Java Applications Development <span class="mono period">· 2017</span></li>
+          <li><strong>AWS AI Practitioner</strong> — In progress <span class="mono period">· target Q3 2026</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section section-contact">
+    <div class="container narrow center">
+      <h2 class="section-title center"><span class="mono accent">05.</span> Get In Touch</h2>
+      <p class="contact-blurb">
+        I'm open to senior backend and platform engineering opportunities.
+        Whether you have a role in mind or just want to talk distributed systems, my inbox is open.
+      </p>
+      <a href="mailto:nitin.jadon.35@gmail.com" class="btn btn-primary btn-lg">Say Hello 👋</a>
+      <div class="contact-links">
+        <a href="mailto:nitin.jadon.35@gmail.com" title="Email">✉️ nitin.jadon.35@gmail.com</a>
+        <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE" target="_blank" rel="noopener" title="LinkedIn">💼 LinkedIn</a>
+        <a href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" rel="noopener" title="GitHub">🐙 GitHub</a>
+      </div>
+      <p class="location mono">📍 Aligarh, India · Remote-friendly</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="mono">Designed &amp; built by Nitin Jadon · © <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
